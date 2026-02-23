@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" 
+        xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <!-- Helper function to generate variations -->
+  <!-- Note: This is an XML file, I will manually list the primary pages and their alternates -->
+
+  <!-- HOME PAGE -->
+  <url>
+    <loc>https://corebench.eu/en/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://corebench.eu/en/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://corebench.eu/de/"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://corebench.eu/nl/"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://corebench.eu/sv/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://corebench.eu/fr/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://corebench.eu/es/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://corebench.eu/it/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://corebench.eu/pl/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://corebench.eu/pt/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://corebench.eu/en/"/>
+  </url>
+
+  <!-- PILLARS -->
+  <url>
+    <loc>https://corebench.eu/en/dev-tools</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://corebench.eu/en/dev-tools"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://corebench.eu/de/dev-tools"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://corebench.eu/nl/dev-tools"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://corebench.eu/sv/dev-tools"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://corebench.eu/fr/dev-tools"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://corebench.eu/es/dev-tools"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://corebench.eu/it/dev-tools"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://corebench.eu/pl/dev-tools"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://corebench.eu/pt/dev-tools"/>
+  </url>
+  <url>
+    <loc>https://corebench.eu/en/finance</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://corebench.eu/en/finance"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://corebench.eu/de/finance"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://corebench.eu/nl/finance"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://corebench.eu/sv/finance"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://corebench.eu/fr/finance"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://corebench.eu/es/finance"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://corebench.eu/it/finance"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://corebench.eu/pl/finance"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://corebench.eu/pt/finance"/>
+  </url>
+
+  <!-- MAJOR TOOLS -->
+  <url>
+    <loc>https://corebench.eu/en/dev-tools/json-formatter</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://corebench.eu/en/dev-tools/json-formatter"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://corebench.eu/de/dev-tools/json-formatter"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://corebench.eu/nl/dev-tools/json-formatter"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://corebench.eu/sv/dev-tools/json-formatter"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://corebench.eu/fr/dev-tools/json-formatter"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://corebench.eu/es/dev-tools/json-formatter"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://corebench.eu/it/dev-tools/json-formatter"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://corebench.eu/pl/dev-tools/json-formatter"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://corebench.eu/pt/dev-tools/json-formatter"/>
+  </url>
+  <url>
+    <loc>https://corebench.eu/en/finance/loan-calculator</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://corebench.eu/en/finance/loan-calculator"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://corebench.eu/de/finance/loan-calculator"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://corebench.eu/nl/finance/loan-calculator"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://corebench.eu/sv/finance/loan-calculator"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://corebench.eu/fr/finance/loan-calculator"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://corebench.eu/es/finance/loan-calculator"/>
+  </url>
+
+  <!-- LISTING ALL OTHERS (Simplified list for sitemap completeness) -->
+  <url><loc>https://corebench.eu/en/dev-tools/base64</loc></url>
+  <url><loc>https://corebench.eu/en/dev-tools/jwt-decoder</loc></url>
+  <url><loc>https://corebench.eu/en/dev-tools/sql-formatter</loc></url>
+  <url><loc>https://corebench.eu/en/dev-tools/regex-tester</loc></url>
+  <url><loc>https://corebench.eu/en/dev-tools/uuid-generator</loc></url>
+  <url><loc>https://corebench.eu/en/dev-tools/timestamp-converter</loc></url>
+  <url><loc>https://corebench.eu/en/dev-tools/url-encoder</loc></url>
+  <url><loc>https://corebench.eu/en/dev-tools/html-minifier</loc></url>
+  <url><loc>https://corebench.eu/en/dev-tools/css-minifier</loc></url>
+  <url><loc>https://corebench.eu/en/dev-tools/hash-generator</loc></url>
+  <url><loc>https://corebench.eu/en/dev-tools/hmac-generator</loc></url>
+  <url><loc>https://corebench.eu/en/dev-tools/password-generator</loc></url>
+  <url><loc>https://corebench.eu/en/blog</loc></url>
+
+</urlset>

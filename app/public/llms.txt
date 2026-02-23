@@ -1,0 +1,22 @@
+# DevSuite for LLMs
+
+## Overview
+DevSuite is a high-performance collection of developer utility tools designed for efficiency and speed. It follows a Silo architecture with Topic Clusters for maximum SEO and discoverability.
+
+## Structure
+- /: Navigation hub for all tool categories.
+- /dev-tools/: Pillar page for developer-centric utilities.
+- /dev-tools/json-formatter: Advanced JSON prettifier, validator, and minifier.
+
+## Core Features
+1. **JSON Formatter**:
+   - Supports Prettify (2-space) and Minify.
+   - Real-time validation.
+   - Copy to clipboard & File download.
+   - "How it works" expert documentation.
+
+## Technical Stack
+- Frontend: React + Vite
+- Styling: Modern CSS / Glassmorphism
+- Performance: Optimized for LCP < 1.2s
+- SEO: JSON-LD Schema, Topic Clusters, Semantic HTML

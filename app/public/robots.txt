@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://corebench.eu/sitemap.xml
