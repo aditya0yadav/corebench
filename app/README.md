@@ -1,12 +1,64 @@
-# React + Vite
+# CoreBench
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+CoreBench is a high-performance, professional-grade developer workbench designed for the modern 2026 workflow. It provides a centralized suite of utilities focusing on speed, security, and developer productivity.
 
-Currently, two official plugins are available:
+## Primary Modules
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+### Developer Utilities
+Provides essential tools for day-to-day development tasks, including:
+- **JSON Modernizer**: High-speed formatting and validation.
+- **Security Suite**: JWT Decoders, HMAC Generators, and secure Password generation.
+- **Transformation Tools**: Base64 encoding/decoding, HTML/CSS minification, and SQL formatting.
 
-## Expanding the ESLint configuration
+### Financial Calculators
+Precision instruments for financial planning and analysis:
+- **Loan Dynamics**: Comprehensive EMI and amortization schedule calculators.
+- **Taxation & Investment**: GST and SIP estimation tools (forthcoming).
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Technical Architecture
+
+### Core Stack
+- **Framework**: React 18+ with Vite for optimal HMR and build performance.
+- **Interface**: Custom CSS design system with glassmorphism and premium micro-animations.
+- **Iconography**: Lucide React for consistent vector iconography.
+
+### Internationalization & SEO
+- **Multi-Regional Engine**: Support for 9+ languages with dynamic routing and locale persistency.
+- **Search Optimization**: Automated sitemap generation, localized meta-tags, and optimized crawlable components.
+
+## Development Workflow
+
+### Prerequisites
+- Node.js (Latest LTS recommended)
+- npm or yarn
+
+### Local Setup
+1. Clone the repository.
+2. Install dependencies:
+   ```bash
+   npm install
+   ```
+3. Start the development server:
+   ```bash
+   npm run dev
+   ```
+
+### Production Build
+To generate a production-ready bundle:
+```bash
+npm run build
+```
+
+The output will be located in the `dist/` directory, optimized for deployment.
+
+## Project Structure
+
+- `src/components`: Reusable UI components and design system tokens.
+- `src/pages`: Top-level route components and page layouts.
+- `src/tools`: Core logic and internal state management for individual utilities.
+- `src/data`: Centralized translation keys and metadata storage.
+- `src/context`: Global state providers for language and configuration.
+
+## License
+
+Internal Enterprise Distribution - CoreBench 2026.
