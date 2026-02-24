@@ -10,7 +10,7 @@ import { useLanguage } from '../context/LanguageContext';
 const schemaData = {
     "@context": "https://schema.org",
     "@type": "SoftwareApplication",
-    "name": "Corebench Loan Calculator",
+    "name": "Lumivoc Loan Calculator",
     "operatingSystem": "All",
     "applicationCategory": "FinanceApplication",
     "description": "Calculate EMI, total interest, and amortization schedule for home, car, and personal loans.",

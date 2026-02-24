@@ -12,7 +12,7 @@ import { keywords } from '../data/keywords';
 const schemaData = {
     "@context": "https://schema.org",
     "@type": "SoftwareApplication",
-    "name": "Corebench JWT Decoder",
+    "name": "Lumivoc JWT Decoder",
     "description": "Decode JSON Web Tokens (JWT) instantly directly in your browser. View header and payload data securely.",
     "applicationCategory": "DeveloperApplication",
     "operatingSystem": "All",
@@ -26,10 +26,10 @@ const JwtDecoderPage = () => {
     return (
         <div style={{ minHeight: '100vh', background: 'var(--bg-page, #fafafa)' }}>
             <Helmet>
-                <title>{t('jwtDecoderTitle') || "JWT Decoder & Verifier"} - Corebench</title>
+                <title>{t('jwtDecoderTitle') || "JWT Decoder & Verifier"} - Lumivoc</title>
                 <meta name="description" content={t('jwtDecoderDesc') || "Decode and verify JSON Web Tokens (JWT) instantly directly in your browser. View header and payload data securely."} />
                 <meta name="keywords" content={toolKeywords} />
-                <link rel="canonical" href={`https://corebench.eu/${locale}/dev-tools/jwt-decoder`} />
+                <link rel="canonical" href={`https://lumivoc.com/${locale}/dev-tools/jwt-decoder`} />
             </Helmet>
             <SchemaMarkup data={schemaData} />
             <div style={{ maxWidth: '1400px', margin: '0 auto', padding: '1rem 1.5rem' }}>

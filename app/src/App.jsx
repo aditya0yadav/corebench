@@ -67,15 +67,15 @@ const AppContent = () => {
       <Helmet>
         <title>{t('title')}</title>
         <meta name="description" content={t('description')} />
-        <link rel="canonical" href={`https://corebench.eu/${locale}${location.pathname.replace(`/${locale}`, '')}`} />
+        <link rel="canonical" href={`https://lumivoc.com/${locale}${location.pathname.replace(`/${locale}`, '')}`} />
       </Helmet>
       {/* Sidebar */}
       <aside className={`sidebar ${sidebarOpen ? 'open' : 'closed'}`}>
         <div className="sidebar-header">
           <Link to={`/${locale}`} style={{ textDecoration: 'none', color: 'inherit' }}>
             <div className="logo">
-              <img src="/logo.png" alt="Corebench" style={{ width: '32px', height: '32px' }} />
-              <span className="logo-text">Corebench</span>
+              <img src="/logo.png" alt="Lumivoc" style={{ width: '32px', height: '32px' }} />
+              <span className="logo-text">Lumivoc</span>
             </div>
           </Link>
           <button className="sidebar-toggle-mobile" onClick={() => setSidebarOpen(false)}>

@@ -11,7 +11,7 @@ import { useLanguage } from '../context/LanguageContext';
 const schemaData = {
     "@context": "https://schema.org",
     "@type": "SoftwareApplication",
-    "name": "Corebench HTML Minifier",
+    "name": "Lumivoc HTML Minifier",
     "description": "Compress and minify HTML code by removing whitespace, newlines, and comments.",
     "applicationCategory": "DeveloperApplication",
     "operatingSystem": "All",
@@ -24,9 +24,9 @@ const HtmlMinifierPage = () => {
     return (
         <div style={{ minHeight: '100vh', background: 'var(--bg-page, #fafafa)' }}>
             <Helmet>
-                <title>HTML Minifier & Compressor - Corebench</title>
+                <title>HTML Minifier & Compressor - Lumivoc</title>
                 <meta name="description" content="Compress and minify HTML code by removing whitespace, newlines, and comments." />
-                <link rel="canonical" href={`https://corebench.eu/${locale}/dev-tools/html-minifier`} />
+                <link rel="canonical" href={`https://lumivoc.com/${locale}/dev-tools/html-minifier`} />
             </Helmet>
             <SchemaMarkup data={schemaData} />
             <div style={{ maxWidth: '1400px', margin: '0 auto', padding: '1rem 1.5rem' }}>

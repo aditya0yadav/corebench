@@ -12,7 +12,7 @@ import { keywords } from '../data/keywords';
 const schemaData = {
     "@context": "https://schema.org",
     "@type": "SoftwareApplication",
-    "name": "Corebench UUID Generator",
+    "name": "Lumivoc UUID Generator",
     "description": "Generate Version 4 UUIDs (Universally Unique Identifiers) in bulk securely in your browser.",
     "applicationCategory": "DeveloperApplication",
     "operatingSystem": "All",
@@ -26,10 +26,10 @@ const UuidGeneratorPage = () => {
     return (
         <div style={{ minHeight: '100vh', background: 'var(--bg-page, #fafafa)' }}>
             <Helmet>
-                <title>{t('uuidGeneratorTitle') || "UUID Generator (v4)"} - Corebench</title>
+                <title>{t('uuidGeneratorTitle') || "UUID Generator (v4)"} - Lumivoc</title>
                 <meta name="description" content={t('uuidGeneratorDesc') || "Generate Version 4 UUIDs (Universally Unique Identifiers) in bulk securely in your browser."} />
                 <meta name="keywords" content={toolKeywords} />
-                <link rel="canonical" href={`https://corebench.eu/${locale}/dev-tools/uuid-generator`} />
+                <link rel="canonical" href={`https://lumivoc.com/${locale}/dev-tools/uuid-generator`} />
             </Helmet>
             <SchemaMarkup data={schemaData} />
             <div style={{ maxWidth: '1400px', margin: '0 auto', padding: '1rem 1.5rem' }}>

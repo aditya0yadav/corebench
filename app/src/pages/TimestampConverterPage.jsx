@@ -11,7 +11,7 @@ import { useLanguage } from '../context/LanguageContext';
 const schemaData = {
     "@context": "https://schema.org",
     "@type": "SoftwareApplication",
-    "name": "Corebench Timestamp Converter",
+    "name": "Lumivoc Timestamp Converter",
     "description": "Convert Unix Timestamps to Human Readable Dates and vice versa.",
     "applicationCategory": "DeveloperApplication",
     "operatingSystem": "All",
@@ -24,9 +24,9 @@ const TimestampConverterPage = () => {
     return (
         <div style={{ minHeight: '100vh', background: 'var(--bg-page, #fafafa)' }}>
             <Helmet>
-                <title>Unix Timestamp Converter - Corebench</title>
+                <title>Unix Timestamp Converter - Lumivoc</title>
                 <meta name="description" content="Convert Unix Timestamps to Human Readable Dates and vice versa." />
-                <link rel="canonical" href={`https://corebench.eu/${locale}/dev-tools/timestamp-converter`} />
+                <link rel="canonical" href={`https://lumivoc.com/${locale}/dev-tools/timestamp-converter`} />
             </Helmet>
             <SchemaMarkup data={schemaData} />
             <div style={{ maxWidth: '1400px', margin: '0 auto', padding: '1rem 1.5rem' }}>

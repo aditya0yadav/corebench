@@ -11,7 +11,7 @@ import { useLanguage } from '../context/LanguageContext';
 const schemaData = {
     "@context": "https://schema.org",
     "@type": "SoftwareApplication",
-    "name": "Corebench Regex Tester",
+    "name": "Lumivoc Regex Tester",
     "description": "Test and debug JavaScript Regular Expressions in real-time with highlighting.",
     "applicationCategory": "DeveloperApplication",
     "operatingSystem": "All",
@@ -24,9 +24,9 @@ const RegexTesterPage = () => {
     return (
         <div style={{ minHeight: '100vh', background: 'var(--bg-page, #fafafa)' }}>
             <Helmet>
-                <title>Regex Tester & Debugger - Corebench</title>
+                <title>Regex Tester & Debugger - Lumivoc</title>
                 <meta name="description" content="Test and debug JavaScript Regular Expressions in real-time with highlighting." />
-                <link rel="canonical" href={`https://corebench.eu/${locale}/dev-tools/regex-tester`} />
+                <link rel="canonical" href={`https://lumivoc.com/${locale}/dev-tools/regex-tester`} />
             </Helmet>
             <SchemaMarkup data={schemaData} />
             <div style={{ maxWidth: '1400px', margin: '0 auto', padding: '1rem 1.5rem' }}>

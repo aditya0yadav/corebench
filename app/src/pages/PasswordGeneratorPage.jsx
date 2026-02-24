@@ -12,7 +12,7 @@ import { keywords } from '../data/keywords';
 const schemaData = {
     "@context": "https://schema.org",
     "@type": "SoftwareApplication",
-    "name": "Corebench Password Generator",
+    "name": "Lumivoc Password Generator",
     "description": "Generate strong, secure passwords with custom length and character sets.",
     "applicationCategory": "UtilityApplication",
     "operatingSystem": "All",
@@ -26,10 +26,10 @@ const PasswordGeneratorPage = () => {
     return (
         <div style={{ minHeight: '100vh', background: 'var(--bg-page, #fafafa)' }}>
             <Helmet>
-                <title>{t('passwordGeneratorTitle') || "Secure Password Generator"} - Corebench</title>
+                <title>{t('passwordGeneratorTitle') || "Secure Password Generator"} - Lumivoc</title>
                 <meta name="description" content={t('passwordGeneratorDesc') || "Generate strong, secure passwords with custom length and character sets."} />
                 <meta name="keywords" content={toolKeywords} />
-                <link rel="canonical" href={`https://corebench.eu/${locale}/dev-tools/password-generator`} />
+                <link rel="canonical" href={`https://lumivoc.com/${locale}/dev-tools/password-generator`} />
             </Helmet>
             <SchemaMarkup data={schemaData} />
             <div style={{ maxWidth: '1400px', margin: '0 auto', padding: '1rem 1.5rem' }}>

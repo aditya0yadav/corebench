@@ -27,7 +27,7 @@ Our **JSON Formatter** tool automatically:
 [Try our JSON Formatter now](/dev-tools/json-formatter) to clean up your data instantly.
         `,
         date: '2026-02-15',
-        author: 'Corebench Team',
+        author: 'Lumivoc Team',
         relatedTool: '/dev-tools/json-formatter',
         tags: ['JSON', 'Development', 'Debugging']
     },
@@ -49,7 +49,7 @@ Base64 is a group of binary-to-text encoding schemes that represent binary data 
 ### How It Works
 It takes 3 bytes of binary data and represents them as 4 printable characters. This expands the data size by ~33%.
 
-### Base64 in Corebench
+### Base64 in Lumivoc
 Our tool supports:
 - Real-time encoding/decoding
 - File upload support
@@ -58,7 +58,7 @@ Our tool supports:
 [Use the Base64 Tool](/dev-tools/base64) for your next project.
         `,
         date: '2026-02-15',
-        author: 'Corebench Team',
+        author: 'Lumivoc Team',
         relatedTool: '/dev-tools/base64',
         tags: ['Base64', 'Encoding', 'Web Standards']
     },
@@ -89,7 +89,7 @@ Version 7 (proposed standard) combines a timestamp with random data.
 Generate both with our [UUID Generator](/dev-tools/uuid-generator).
         `,
         date: '2026-02-14',
-        author: 'Corebench Team',
+        author: 'Lumivoc Team',
         relatedTool: '/dev-tools/uuid-generator',
         tags: ['UUID', 'Database', 'Architecture']
     },
@@ -109,13 +109,13 @@ A JWT consists of three parts separated by dots:
 ### Security Warning
 Never decode JWTs on untrusted sites that send your token to a server. 
 
-### The Corebench Advantage
+### The Lumivoc Advantage
 Our **JWT Decoder** runs 100% in your browser. Your sensitive tokens never leave your device. We also support **Signature Verification** for HS256 tokens directly in the client.
 
 [Decode and Verify JWTs](/dev-tools/jwt-decoder) safely now.
         `,
         date: '2026-02-14',
-        author: 'Corebench Team',
+        author: 'Lumivoc Team',
         relatedTool: '/dev-tools/jwt-decoder',
         tags: ['JWT', 'Security', 'Authentication']
     },
@@ -143,7 +143,7 @@ Don't format by hand. Our **SQL Formatter** handles dialects like MySQL, Postgre
 [Format your SQL](/dev-tools/sql-formatter) in seconds.
         `,
         date: '2026-02-13',
-        author: 'Corebench Team',
+        author: 'Lumivoc Team',
         relatedTool: '/dev-tools/sql-formatter',
         tags: ['SQL', 'Database', 'Productivity']
     },
@@ -171,7 +171,7 @@ Our **Loan Calculator** provides a detailed amortization schedule and pie charts
 [Calculate your payments](/finance/loan-calculator) and plan your debt-free journey.
         `,
         date: '2026-02-13',
-        author: 'Corebench Team',
+        author: 'Lumivoc Team',
         relatedTool: '/finance/loan-calculator',
         tags: ['Finance', 'Loans', 'Calculator']
     },
@@ -197,7 +197,7 @@ Sending unencoded query parameters often breaks API calls because the server mis
 [Encode or Decode URLs](/dev-tools/url-encoder) instantly with our tool.
         `,
         date: '2026-02-12',
-        author: 'Corebench Team',
+        author: 'Lumivoc Team',
         relatedTool: '/dev-tools/url-encoder',
         tags: ['Web', 'URL', 'HTTP']
     },
@@ -222,7 +222,7 @@ Always minify before deploying to production. Most build tools (Webpack, Vite) d
 Try our [HTML Minifier](/dev-tools/html-minifier) and [CSS Minifier](/dev-tools/css-minifier).
         `,
         date: '2026-02-12',
-        author: 'Corebench Team',
+        author: 'Lumivoc Team',
         relatedTool: '/dev-tools/html-minifier',
         tags: ['Performance', 'Web', 'Minification']
     },
@@ -247,7 +247,7 @@ Use a Cryptographically Secure Pseudo-Random Number Generator (CSPRNG), not \`Ma
 [Generate a strong password](/dev-tools/password-generator) now.
         `,
         date: '2026-02-11',
-        author: 'Corebench Team',
+        author: 'Lumivoc Team',
         relatedTool: '/dev-tools/password-generator',
         tags: ['Security', 'Passwords', 'Privacy']
     },
@@ -272,7 +272,7 @@ Don't write regex blindly. Use our tester to see matches highlighting in real-ti
 [Test your Regex](/dev-tools/regex-tester) patterns here.
         `,
         date: '2026-02-11',
-        author: 'Corebench Team',
+        author: 'Lumivoc Team',
         relatedTool: '/dev-tools/regex-tester',
         tags: ['Regex', 'Development', 'Programming']
     },
@@ -292,12 +292,12 @@ Advanced minification involves:
 - Removing unused rules
 - Shortening color codes (#ffffff -> #fff)
 
-### Use Corebench CSS Minifier
+### Use Lumivoc CSS Minifier
 Our tool focuses on safe transformations that won't break your layout.
 [Minify Your CSS](/dev-tools/css-minifier)
         `,
         date: '2026-02-10',
-        author: 'Corebench Team',
+        author: 'Lumivoc Team',
         relatedTool: '/dev-tools/css-minifier',
         tags: ['CSS', 'Performance', 'Web Design']
     },
@@ -319,7 +319,7 @@ Use our HMAC Generator to create secure signatures for your webhooks or API call
 [Generate HMAC](/dev-tools/hmac-generator)
         `,
         date: '2026-02-09',
-        author: 'Corebench Team',
+        author: 'Lumivoc Team',
         relatedTool: '/dev-tools/hmac-generator',
         tags: ['Security', 'HMAC', 'API']
     },
@@ -343,7 +343,7 @@ It's the number of seconds that have elapsed since January 1, 1970 (UTC).
 [Convert Timestamps](/dev-tools/timestamp-converter)
         `,
         date: '2026-02-08',
-        author: 'Corebench Team',
+        author: 'Lumivoc Team',
         relatedTool: '/dev-tools/timestamp-converter',
         tags: ['Time', 'Unix', 'Development']
     },
@@ -366,7 +366,7 @@ SHA-256 and SHA-512 are currently considered secure and are used in Bitcoin, SSL
 [Generate Hashes](/dev-tools/hash-generator)
         `,
         date: '2026-02-07',
-        author: 'Corebench Team',
+        author: 'Lumivoc Team',
         relatedTool: '/dev-tools/hash-generator',
         tags: ['Security', 'Cryptography', 'Hashing']
     },
@@ -387,7 +387,7 @@ Safe HTML minification that respects script and style tags.
 [Minify HTML](/dev-tools/html-minifier)
         `,
         date: '2026-02-06',
-        author: 'Corebench Team',
+        author: 'Lumivoc Team',
         relatedTool: '/dev-tools/html-minifier',
         tags: ['HTML', 'SEO', 'Performance']
     },
@@ -408,7 +408,7 @@ See exactly how much interest you save with our calculator.
 [Loan Calculator](/finance/loan-calculator)
         `,
         date: '2026-02-05',
-        author: 'Corebench Team',
+        author: 'Lumivoc Team',
         relatedTool: '/finance/loan-calculator',
         tags: ['Finance', 'Mortgage', 'Planning']
     },
@@ -431,7 +431,7 @@ Always test edge cases.
 [Test Regex Patterns](/dev-tools/regex-tester)
         `,
         date: '2026-02-04',
-        author: 'Corebench Team',
+        author: 'Lumivoc Team',
         relatedTool: '/dev-tools/regex-tester',
         tags: ['Regex', 'Code', 'Tips']
     },
@@ -452,7 +452,7 @@ Receiver getting weird data? Check if it was double-encoded or not encoded at al
 [Debug URL Encoding](/dev-tools/url-encoder)
         `,
         date: '2026-02-03',
-        author: 'Corebench Team',
+        author: 'Lumivoc Team',
         relatedTool: '/dev-tools/url-encoder',
         tags: ['API', 'REST', 'Debugging']
     },
@@ -472,7 +472,7 @@ You can use our password generator (exclude symbols, increase length to 32+) to 
 [Generate Keys](/dev-tools/password-generator)
         `,
         date: '2026-02-02',
-        author: 'Corebench Team',
+        author: 'Lumivoc Team',
         relatedTool: '/dev-tools/password-generator',
         tags: ['Security', 'API', 'Backend']
     },
@@ -493,7 +493,7 @@ When your app crashes on \`JSON.parse()\`, it's usually one of these small error
 [Fix JSON Syntax](/dev-tools/json-formatter)
         `,
         date: '2026-02-01',
-        author: 'Corebench Team',
+        author: 'Lumivoc Team',
         relatedTool: '/dev-tools/json-formatter',
         tags: ['JSON', 'Web Standards', 'Data']
     }

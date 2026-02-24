@@ -11,24 +11,24 @@ const BlogListPage = () => {
     const schemaData = {
         "@context": "https://schema.org",
         "@type": "Blog",
-        "name": "Corebench Blog",
+        "name": "Lumivoc Blog",
         "description": "Tutorials, guides, and insights for developers and financial planners.",
-        "url": "https://corebench.app/blog",
+        "url": "https://lumivoc.com/blog",
         "blogPost": blogs.map(blog => ({
             "@type": "BlogPosting",
             "headline": blog.title,
             "description": blog.summary,
             "datePublished": blog.date,
-            "author": { "@type": "Organization", "name": "Corebench Team" }
+            "author": { "@type": "Organization", "name": "Lumivoc Team" }
         }))
     };
 
     return (
         <div style={{ minHeight: '100vh', background: 'var(--bg-page, #fafafa)' }}>
             <Helmet>
-                <title>Corebench Blog - Developer & Finance Guides</title>
+                <title>Lumivoc Blog - Developer & Finance Guides</title>
                 <meta name="description" content="Tutorials, guides, and insights for developers and financial planners. Learn about JSON, JWT, Base64, and more." />
-                <link rel="canonical" href={`https://corebench.eu/${locale}/blog`} />
+                <link rel="canonical" href={`https://lumivoc.com/${locale}/blog`} />
             </Helmet>
             <SchemaMarkup data={schemaData} />
             <div style={{ maxWidth: '1200px', margin: '0 auto', padding: '3rem 1.5rem' }}>

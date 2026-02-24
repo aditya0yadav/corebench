@@ -44,7 +44,7 @@ const HomePage = () => {
             <Helmet>
                 <title>{t('title')}</title>
                 <meta name="description" content={t('description')} />
-                <link rel="canonical" href={`https://corebench.eu/${locale}/`} />
+                <link rel="canonical" href={`https://lumivoc.com/${locale}/`} />
             </Helmet>
 
             <AdBox type="horizontal" label="Top Sponsor" marginTop="0" marginBottom="60px" />

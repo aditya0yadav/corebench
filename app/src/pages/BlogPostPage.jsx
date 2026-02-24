@@ -24,15 +24,15 @@ const BlogPostPage = () => {
         "description": blog.summary,
         "author": { "@type": "Organization", "name": blog.author },
         "datePublished": blog.date,
-        "mainEntityOfPage": { "@type": "WebPage", "@id": `https://corebench.app/blog/${blog.slug}` }
+        "mainEntityOfPage": { "@type": "WebPage", "@id": `https://lumivoc.com/blog/${blog.slug}` }
     };
 
     return (
         <div style={{ minHeight: '100vh', background: 'var(--bg-page, #fafafa)' }}>
             <Helmet>
-                <title>{blog.title} - Corebench Blog</title>
+                <title>{blog.title} - Lumivoc Blog</title>
                 <meta name="description" content={blog.summary} />
-                <link rel="canonical" href={`https://corebench.eu/${locale}/blog/${blog.slug}`} />
+                <link rel="canonical" href={`https://lumivoc.com/${locale}/blog/${blog.slug}`} />
                 <meta property="og:title" content={blog.title} />
                 <meta property="og:description" content={blog.summary} />
                 <meta property="og:type" content="article" />

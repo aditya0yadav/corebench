@@ -11,7 +11,7 @@ import { useLanguage } from '../context/LanguageContext';
 const schemaData = {
     "@context": "https://schema.org",
     "@type": "SoftwareApplication",
-    "name": "Corebench URL Encoder/Decoder",
+    "name": "Lumivoc URL Encoder/Decoder",
     "description": "Online tool to encode and decode URLs. Convert text to URL-safe format and vice versa.",
     "applicationCategory": "DeveloperApplication",
     "operatingSystem": "All",
@@ -24,9 +24,9 @@ const UrlEncoderPage = () => {
     return (
         <div style={{ minHeight: '100vh', background: 'var(--bg-page, #fafafa)' }}>
             <Helmet>
-                <title>URL Encoder & Decoder - Corebench</title>
+                <title>URL Encoder & Decoder - Lumivoc</title>
                 <meta name="description" content="Online tool to encode and decode URLs. Convert text to URL-safe format and vice versa." />
-                <link rel="canonical" href={`https://corebench.eu/${locale}/dev-tools/url-encoder`} />
+                <link rel="canonical" href={`https://lumivoc.com/${locale}/dev-tools/url-encoder`} />
             </Helmet>
             <SchemaMarkup data={schemaData} />
             <div style={{ maxWidth: '1400px', margin: '0 auto', padding: '1rem 1.5rem' }}>

@@ -12,7 +12,7 @@ import { keywords } from '../data/keywords';
 const schemaData = {
     "@context": "https://schema.org",
     "@type": "SoftwareApplication",
-    "name": "Corebench Base64 Encoder/Decoder",
+    "name": "Lumivoc Base64 Encoder/Decoder",
     "operatingSystem": "All",
     "applicationCategory": "DeveloperApplication",
     "description": "Professional Base64 encoding and decoding tool with UTF-8 support for developers.",
@@ -59,10 +59,10 @@ const Base64Page = () => {
             background: 'var(--bg-page, #fafafa)'
         }}>
             <Helmet>
-                <title>{t('base64Title') || "Base64 Encoder & Decoder"} - Corebench</title>
+                <title>{t('base64Title') || "Base64 Encoder & Decoder"} - Lumivoc</title>
                 <meta name="description" content={t('base64Desc') || "Free online Base64 Encoder and Decoder. Convert text and files to Base64 securely in your browser."} />
                 <meta name="keywords" content={toolKeywords} />
-                <link rel="canonical" href={`https://corebench.eu/${locale}/dev-tools/base64`} />
+                <link rel="canonical" href={`https://lumivoc.com/${locale}/dev-tools/base64`} />
             </Helmet>
             <SchemaMarkup data={schemaData} />
 

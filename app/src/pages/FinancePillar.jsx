@@ -40,7 +40,7 @@ const FinancePillar = () => {
     const schemaData = {
         "@context": "https://schema.org",
         "@type": "CollectionPage",
-        "name": "Corebench Finance Tools",
+        "name": "Lumivoc Finance Tools",
         "description": "Professional financial calculators for developers and freelancers. EMI, GST, SIP, and more.",
         "url": "https://devsuite.app/finance"
     };

@@ -12,7 +12,7 @@ import { keywords } from '../data/keywords';
 const schemaData = {
     "@context": "https://schema.org",
     "@type": "SoftwareApplication",
-    "name": "Corebench SQL Formatter",
+    "name": "Lumivoc SQL Formatter",
     "description": "Format and beautify Standard SQL queries. Auto-uppercase keywords and fix indentation.",
     "applicationCategory": "DeveloperApplication",
     "operatingSystem": "All",
@@ -26,10 +26,10 @@ const SqlFormatterPage = () => {
     return (
         <div style={{ minHeight: '100vh', background: 'var(--bg-page, #fafafa)' }}>
             <Helmet>
-                <title>{t('sqlFormatterTitle') || "SQL Formatter & Beautifier"} - Corebench</title>
+                <title>{t('sqlFormatterTitle') || "SQL Formatter & Beautifier"} - Lumivoc</title>
                 <meta name="description" content={t('sqlFormatterDesc') || "Format and beautify Standard SQL queries. Auto-uppercase keywords and fix indentation."} />
                 <meta name="keywords" content={toolKeywords} />
-                <link rel="canonical" href={`https://corebench.eu/${locale}/dev-tools/sql-formatter`} />
+                <link rel="canonical" href={`https://lumivoc.com/${locale}/dev-tools/sql-formatter`} />
             </Helmet>
             <SchemaMarkup data={schemaData} />
             <div style={{ maxWidth: '1400px', margin: '0 auto', padding: '1rem 1.5rem' }}>

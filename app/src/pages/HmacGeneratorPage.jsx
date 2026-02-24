@@ -11,7 +11,7 @@ import { useLanguage } from '../context/LanguageContext';
 const schemaData = {
     "@context": "https://schema.org",
     "@type": "SoftwareApplication",
-    "name": "Corebench HMAC Generator",
+    "name": "Lumivoc HMAC Generator",
     "description": "Calculate HMAC (Hash-based Message Authentication Code) using SHA algorithms.",
     "applicationCategory": "DeveloperApplication",
     "operatingSystem": "All",
@@ -24,9 +24,9 @@ const HmacGeneratorPage = () => {
     return (
         <div style={{ minHeight: '100vh', background: 'var(--bg-page, #fafafa)' }}>
             <Helmet>
-                <title>HMAC Generator - Corebench</title>
+                <title>HMAC Generator - Lumivoc</title>
                 <meta name="description" content="Calculate HMAC (Hash-based Message Authentication Code) using SHA algorithms." />
-                <link rel="canonical" href={`https://corebench.eu/${locale}/dev-tools/hmac-generator`} />
+                <link rel="canonical" href={`https://lumivoc.com/${locale}/dev-tools/hmac-generator`} />
             </Helmet>
             <SchemaMarkup data={schemaData} />
             <div style={{ maxWidth: '1400px', margin: '0 auto', padding: '1rem 1.5rem' }}>

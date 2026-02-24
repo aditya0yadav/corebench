@@ -12,7 +12,7 @@ import { keywords } from '../data/keywords';
 const schemaData = {
     "@context": "https://schema.org",
     "@type": "SoftwareApplication",
-    "name": "Corebench JSON Formatter",
+    "name": "Lumivoc JSON Formatter",
     "operatingSystem": "All",
     "applicationCategory": "DeveloperApplication",
     "description": "A high-performance JSON prettifier, validator, and minifier optimized for 2026 developers.",
@@ -53,10 +53,10 @@ const JsonFormatterPage = () => {
             background: 'var(--bg-page, #fafafa)'
         }}>
             <Helmet>
-                <title>{t('jsonFormatterTitle') || "JSON Formatter & Validator"} - Corebench</title>
+                <title>{t('jsonFormatterTitle') || "JSON Formatter & Validator"} - Lumivoc</title>
                 <meta name="description" content={t('jsonFormatterDesc') || "Free online JSON Formatter and Validator. Beautify, minify, and debug your JSON data securely in your browser."} />
                 <meta name="keywords" content={toolKeywords} />
-                <link rel="canonical" href={`https://corebench.eu/${locale}/dev-tools/json-formatter`} />
+                <link rel="canonical" href={`https://lumivoc.com/${locale}/dev-tools/json-formatter`} />
             </Helmet>
             <SchemaMarkup data={schemaData} />
 

@@ -11,7 +11,7 @@ import { useLanguage } from '../context/LanguageContext';
 const schemaData = {
     "@context": "https://schema.org",
     "@type": "SoftwareApplication",
-    "name": "Corebench Hash Generator",
+    "name": "Lumivoc Hash Generator",
     "description": "Generate MD5, SHA-1, SHA-256, and SHA-512 hashes instantly.",
     "applicationCategory": "DeveloperApplication",
     "operatingSystem": "All",
@@ -24,9 +24,9 @@ const HashGeneratorPage = () => {
     return (
         <div style={{ minHeight: '100vh', background: 'var(--bg-page, #fafafa)' }}>
             <Helmet>
-                <title>Hash Generator (MD5, SHA-256) - Corebench</title>
+                <title>Hash Generator (MD5, SHA-256) - Lumivoc</title>
                 <meta name="description" content="Generate MD5, SHA-1, SHA-256, and SHA-512 hashes instantly." />
-                <link rel="canonical" href={`https://corebench.eu/${locale}/dev-tools/hash-generator`} />
+                <link rel="canonical" href={`https://lumivoc.com/${locale}/dev-tools/hash-generator`} />
             </Helmet>
             <SchemaMarkup data={schemaData} />
             <div style={{ maxWidth: '1400px', margin: '0 auto', padding: '1rem 1.5rem' }}>
